@@ -1,8 +1,7 @@
 {
   "name": "react-svg-holder",
-  "version": "1.0.2",
-  "description":
-    "React image component with fallback to svg placeholder with custom text, color, dimensions, etc.",
+  "version": "1.0.3",
+  "description": "React image component with fallback to svg placeholder with custom text, color, dimensions, etc.",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
@@ -19,7 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/saeedalipoor/react-svg-holder.git"
   },
-  "keywords": ["React", "Image", "Component", "SVG", "Placeholder"],
+  "keywords": [
+    "React",
+    "Image",
+    "Component",
+    "SVG",
+    "Placeholder"
+  ],
   "author": "Saeed Alipoor",
   "license": "MIT",
   "bugs": {
@@ -31,7 +36,8 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "uglifyjs-webpack-plugin": "^1.1.2"
   },
   "homepage": "https://github.com/saeedalipoor/react-svg-holder#readme"
 }
